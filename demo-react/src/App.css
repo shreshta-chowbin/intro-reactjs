@@ -1,0 +1,114 @@
+.App {
+  /* text-align: center; */
+  /* background-color: lightcyan; */
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  position: fixed;
+  right: 0%;
+  top: 0%;
+  width: 10%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.IFrames iframe{
+  width: 90%;
+  height: 200px;
+  margin: 5%;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+
+.PrabhasPara{
+  background-color: aliceblue;
+  margin: 5%;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+
+.App-header{
+  position: sticky;
+  top: 0px;
+  text-align: center;
+  width: 95%;
+  /* height: 10px; */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc-kzXr68-hHDl6P8xHfH1oRtWbM4VlG1HXg&s");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 6px solid darkblue;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 10px black;
+  letter-spacing: 2vb;
+  text-shadow: 10px 10px 10px black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index: 10;
+}
+
+.FlexImg{
+  width: 90%;
+  height: 600px;
+  border: 10px solid black;
+  border-radius: 20px;
+  margin: 5%;
+  /* background-color: lightcyan; */
+  display: flex;
+}
+
+.PrabhasPics{
+  width: 20%;
+  height: 100%;
+  /* display: inline-block; */
+  position: relative;
+  border-radius: 10px;
+}
+
+.Pic1{
+  left: 120px;
+  z-index: 1;
+}
+
+.Pic2{
+  left: 50px;
+  z-index: 4;
+}
+
+.Pic3{
+  right: 60px;
+  z-index: 2;
+  order: 2;
+}
+
+.Pic4{
+  z-index: 3;
+  order: 1;
+}
+
+.Pic5{
+  right: 120px;
+  z-index: 1;
+  order: 3;
+}
+
+
